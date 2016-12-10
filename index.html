@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            margin: 0 auto;
+            width: 1100px;
+        }
+        .log{
+            height: 30px;
+            background-color:#c1e2b3;
+        }
+        .nav-left li{
+            height: 30px;
+            margin-left: 30px;
+            float: left;
+            list-style: none;
+            position: relative;
+        }
+        .nav-left a{
+            line-height: 30px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #000000;
+        }
+        .nav-right{
+            position: relative;
+        }
+        .nav-right> li{
+            height: 30px;
+            margin-right: 30px;
+            float: right;
+            list-style: none;
+        }
+        .nav-right a{
+            line-height: 30px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #000000;
+            list-style: none;
+        }
+        .nav-left li a:hover{
+            color:#d9534f;
+        }
+
+        .nav-right li a:hover{
+            color: #d9534f;
+        }
+        .nav-right ul{
+            display: none;
+        }
+        .nav-right li:hover ul{
+            display: block;
+            position: absolute;
+            list-style: none;
+        }
+        .munew-left{
+            float: left;
+            width: 500px;
+        }
+        #pic li{
+            float: left;
+            list-style: none;
+        }
+        .munew-right{
+            float: right;
+            width:550px;
+
+        }
+       .munew1 p{
+            margin: 20px 10px 10px 0 ;
+            height: 50px;
+           margin-left: 10px;
+           line-height: 50px;
+        }
+        .munew2{
+            height: 50px;
+            margin: 20px 10px 10px 0 ;
+        }
+       .munew3{
+           height: 50px;
+           margin: 20px 10px 10px 0 ;
+       }
+       .munew4{
+           height: 50px;
+           margin: 20px 10px 10px 0 ;
+       }
+        .munew5{
+            height: 50px;
+            margin: 20px 10px 10px 0 ;
+        }
+        .munew6{
+            height: 50px;
+            margin: 50px 10px 10px 0 ;
+        }
+        .munew7{
+            margin: 73px 10px 0 0 ;
+            height: 50px;
+            margin-left: 10px;
+            line-height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="log">
+                <ul class="nav-left">
+                    <li><a href="#">登录</a> </li>
+                    <li><a href="#">消息</a> </li>
+                    <li><a href="#">手机逛淘宝</a> </li>
+                </ul>
+                <ul class="nav-right">
+                    <li><a href="#">我的淘宝</a>
+                        <ul>
+                            <li><a href="#">已经购买</a> </li>
+                            <li><a href="#">查阅过的</a> </li>
+                            <li><a href="#">确定收货</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">购物车</a>
+                        <ul>
+                            <li><a href="#">买过的</a> </li>
+                            <li><a href="#">看过的</a> </li>
+                            <li><a href="#">喜欢的</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">商品分类</a>
+                        <ul>
+                            <li><a href="#">冬天毛衣</a> </li>
+                            <li><a href="#">男款大衣</a> </li>
+                            <li><a href="#">男款风衣</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">卖家中心</a>
+                        <ul>
+                            <li><a href="#">淘宝黑河</a> </li>
+                            <li><a href="#">联系卖家</a> </li>
+                            <li><a href="#">确定收货</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="ppc"><img src="img/6.png" style="height: 100px;margin: 20px 0 20px 0;width:1100px; " ></div>
+        <div id="munew">
+            <div class="munew-left">
+                <div id="pic-top">
+                    <img src="img/2js.jpg" style=" width: 450px;height:450px; margin: 20px 0 20px 0;border: 1px solid #adadad: " id="big">
+                </div>
+                <div id="pic-bom">
+                    <ul id="pic">
+                        <li><img src="img/1js.jpg"style="width: 80px; height:70px; margin-left: 10px;" onmousemove="move(this)" id="a" ></li>
+                        <li><img src="img/2js.jpg"style="width: 80px; height:70px; margin-left: 10px;" onmousemove="move(this)"id="e" ></li>
+                        <li><img src="img/3js.jpg"style="width: 80px; height:70px; margin-left: 10px;" onmousemove="move(this)"id="c" ></li>
+                        <li><img src="img/4js.jpg"style="width: 80px; height:70px; margin-left: 10px;" onmousemove="move(this)"id="v" ></li>
+                        <li><img src="img/7.jpg"style="width: 80px; height:70px; margin-left: 10px;" onmousemove="move(this)" id="b"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="munew-right">
+                <div class="munew1"><p>秋季新款韩版流行男装潮男休闲修身撞色毛衣打底衫男士线衣针织衫</p></div>
+                <div class="munew2">
+                    <div class="munew1-left" style="width: 50px;float: left;text-align: center;line-height: 50px;">价格</div>
+                    <div class="munew1-mid" style="width: 50px;float: left;text-align: center;line-height: 50px;">¥99</div>
+                    <div class="munew1-right" style="width: 100px;float: right;line-height: 50px">累计评论  26</div>
+                    <div class="munew1-right" style="width:100px;float: right;line-height: 50px">累计评论  26</div>
+                </div>
+                <div class="munew3">
+                    <div class="munew3-left" style="width: 50px;float: left;text-align: center;line-height: 50px;">优惠</div>
+                    <div class="munew3-mid" style="width: 100px;float: left;text-align: center;line-height: 50px; color: #d9534f;">淘宝优惠</div>
+                    <div class="munew3-right" style="width: 100px;float: right;line-height: 50px">    满20减10        </div>
+                    <div class="munew3-right" style="width:100px;float: right;line-height: 50px">  满100减50 </div>
+                </div>
+                <div class="shixian" style="border:1px solid #adadad; "></div>
+                <div class="munew4">
+                    <div class="munew4-left" style="width: 50px;float: left;text-align: center;line-height: 50px;">尺码</div>
+                    <div class="munew4-mid" style="width: 100px;float: left;text-align: center;line-height: 50px; ">2xl</div>
+                </div>
+                <div class="munew5">
+                    <div class="munew5-left" style="width: 50px;float: left;text-align: center;line-height: 50px;">颜色</div>
+                    <div class="munew5-mid" style="width: 100px; float: left;text-align: center;line-height: 50px; "><img src="img/3js.jpg"style="width: 50px;height: 40px;" ></div>
+                    <div class="munew5-mid" style="width: 100px; float: left;text-align: center;line-height: 50px; "><img src="img/4js.jpg"style="width: 50px;height: 40px;" ></div>
+                </div>
+                <div class="munew6">
+                    <button id="but" type="button" value="nam" style="width: 70px;height:50px;background-color:#ce8483;;">立即购买</button>
+                    <button id="butt" type="button" value="nam" style="width: 70px;height:50px;background-color:#67b168;">加入购车</button>
+                </div>
+                <div class="munew7"><p>欢迎来到项目免费为试点地区适龄儿童提供一份商业补充大病医疗保险</p><p id="time" style="font-size: 30px;float: right;"></p></div>
+            </div>
+        </div>
+        </div>
+</body>
+<script type="text/javascript">
+   function move(bb){
+        var picb=document.getElementById('big');
+       picb.src= bb.src;
+    }
+   window.onload=function() {
+       var oP = document.getElementById('time');
+       setInterval( ab , 1000);
+       function ab () {
+           var mytime = new Date();
+           var iHour = mytime.getHours();
+           var pMin = mytime.getMinutes();
+           var iSe = mytime.getSeconds();
+           var str = toTwo(iHour) +':'+ toTwo(pMin) +':'+ toTwo(iSe);
+           oP.innerHTML = str;
+       }
+       function toTwo(n) {
+           return n<10 ? '0' + n : '' + n;
+       }
+
+   }
+</script>
+</html>
